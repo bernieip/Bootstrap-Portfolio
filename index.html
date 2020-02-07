@@ -2,56 +2,138 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>About | Bernie Ip</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+  <meta charset="utf-8">
+  <title>Bernie Ip</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <a href="index.html" id="logo">Bernie Ip</a>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="index.html">About</a></li>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+
         </div>
-    </nav>
+      </nav>
 
-    <div id="top-container" class="container-fluid">
-        <section class="top-section">
-            <h1>About Me</h1>
 
-            <img src="assets/images/spongebob.png" class="auth-image" height="200px" width="200px">
+      <!-- Title -->
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam risus mi, interdum nec efficitur sit amet, finibus quis magna. Phasellus at scelerisque ex, sit amet egestas ante. Etiam tempus facilisis nulla. Fusce lobortis odio eu urna sodales, sit amet gravida felis ultrices. Ut nunc dolor, vestibulum eu ligula in, pharetra dapibus enim. Pellentesque vestibulum mauris efficitur, fermentum urna sit amet, dapibus libero. Pellentesque augue tellus, dapibus eget efficitur ut, mattis sed dui. Morbi ante leo, aliquet in commodo et, suscipit sed nisi.</p>
+      <div class="row">
 
-            <p>Nulla facilisi. Nunc blandit, nisl in congue tincidunt, eros massa vestibulum erat, nec tempus nibh lorem sit amet velit. Sed cursus neque risus, et faucibus urna euismod nec. Fusce cursus vel metus eget pharetra. Nulla bibendum urna eu ullamcorper vulputate. Quisque in egestas justo. Vivamus in nulla luctus, semper nisl id, laoreet quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur viverra nulla sed dapibus. Suspendisse dolor neque, consectetur eu condimentum quis, ornare ac risus. Maecenas quam elit, mattis nec neque sollicitudin, efficitur scelerisque velit. Sed non odio semper purus rutrum pharetra bibendum non dui.</p>
+        <div class="col-lg-6">
+          <h1 class="big-heading">Hi, I am a website.</h1>
+        </div>
 
-        </section>
+      </div>
+
     </div>
 
-    <footer>
-        <div class="container-fluid">
-        Copyright ©
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Title 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-    </footer>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Title 2</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Title 3</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Portfolio -->
+
+  <section class="colored-section" id="Portfolio">
+
+    <div id="Portfolio-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="Portfolio-text">Project 1</h2>
+          <img class="Portfolio-image" src="images/JobRocket.png" alt="project1-profile">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="Portfolio-text">Project 2</h2>
+          <img class="Portfolio-image" src="images/project1.png" alt="project2-profile">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#Portfolio-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#Portfolio-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020</p>
+    </div>
+  </footer>
+
+
 </body>
+
 </html>
