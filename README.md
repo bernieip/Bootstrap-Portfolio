@@ -1,7 +1,19 @@
 # Bootstrap-Portfolio
 
-## Description
+This is a portfolio of my projects and assignments
 
-This is my portofolio for my Coding Bootcamp program. I'll be continuing to edit this project with my work as the course goes by. This portofolio has some basic bootstrap code in it to make the website more responsive. 
 
-This app will guide you through my home page, my portfolio page.
+## How to use
+
+The application can be accessed at the following site: https://bernieip.github.io/Bootstrap-Portfolio/
+
+## Tech Stack
+
+1. HTML
+2. CSS
+3. Bootstrap
+
+![Image description](/images/screenshot.png)
+
+
+
