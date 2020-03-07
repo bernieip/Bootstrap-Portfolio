@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-This is a portfolio of my projects and assignments
+This is a portfolio of my projects and assignments at the University of Toronto Full Stack Web Development Bootcamp.
 
 
 ## How to use
