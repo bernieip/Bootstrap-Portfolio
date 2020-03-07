@@ -145,3 +145,7 @@ p {
     transform: rotate(0);
   }
 }
+
+#footer {
+  background-color: #0295EF;
+}
